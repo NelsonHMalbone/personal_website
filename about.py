@@ -30,6 +30,19 @@ with col_2:
     st.info(content2)
 
 # top 3 code section
-
+col1, col2, col3 = st.columns(3)
+with col1:
+    st.write('')
+with col2:
+    st.subheader('Top 3 Code Projects')
+with col3:
+    st.write('')
 
 # top 3 photos taken
+col1, col2, col3 = st.columns(3)
+with col1:
+    st.write('')
+with col2:
+    st.subheader('Top 3 Photos Projects')
+with col3:
+    st.write('')
