@@ -7,6 +7,7 @@ with col1:
 with col2:
     st.header('About Me')
     st.subheader('Who I Am?')
+    st.write('')
 with col3:
     st.write('')
 
@@ -28,12 +29,14 @@ with col_2:
     st.info(content)
     st.info(content1)
     st.info(content2)
+    st.write('')
 col1, col2, col3 = st.columns(3)
 with col1:
     st.write('')
 with col2:
     data = "on the dl"
     st.download_button('Download Resume', data)
+    st.write('')
 with col3:
     st.write('')
 
@@ -45,6 +48,7 @@ I have been an volunteer firefighter for over 15 + years love to help and suppor
 when im not working or working on my code/photography
 """
 st.info(content3)
+st.write('')
 
 # top 3 code section
 col1, col2, col3 = st.columns(3)
@@ -62,6 +66,7 @@ with col2:
     st.write('img2')
 with col3:
     st.write('img3')
+    st.write('')
 
 
 # top 3 photos taken
