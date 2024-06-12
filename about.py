@@ -55,6 +55,15 @@ with col2:
 with col3:
     st.write('')
 
+col1, col2, col3 = st.columns(3)
+with col1:
+    st.write('img')
+with col2:
+    st.write('img2')
+with col3:
+    st.write('img3')
+
+
 # top 3 photos taken
 col1, col2, col3 = st.columns(3)
 with col1:
@@ -63,3 +72,11 @@ with col2:
     st.subheader('Top 3 Photos Projects')
 with col3:
     st.write('')
+
+col1, col2, col3 = st.columns(3)
+with col1:
+    st.write('img')
+with col2:
+    st.write('img2')
+with col3:
+    st.write('img3')
