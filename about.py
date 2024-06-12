@@ -28,6 +28,23 @@ with col_2:
     st.info(content)
     st.info(content1)
     st.info(content2)
+col1, col2, col3 = st.columns(3)
+with col1:
+    st.write('')
+with col2:
+    data = "on the dl"
+    st.download_button('Download Resume', data)
+with col3:
+    st.write('')
+
+# personal note
+st.subheader('On a personal Note: ')
+content3 = """
+Im a father to a beautiful little girl also
+I have been an volunteer firefighter for over 15 + years love to help and support the commmunity
+when im not working or working on my code/photography
+"""
+st.info(content3)
 
 # top 3 code section
 col1, col2, col3 = st.columns(3)
