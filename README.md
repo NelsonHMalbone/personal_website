@@ -36,7 +36,7 @@ just a simple page to show some contact infomation
 
 
 # Journal
-## Day one 
+## Day 1 
 #### Date 06/09/2024
 
 <p>
@@ -47,4 +47,14 @@ files along with folders and files that i will need.
 <p>
 Excel sheet will be used to beable to get the links for the urls of photos
 and code projects
+</p>
+
+## Day 2 
+#### Date 06/12/2024
+
+
+<p>
+we added a who i am section along with dummy ref for a download button for my up and coming 
+improved resume. added personal note then added a top 3 photo and code sections the photo section 
+has places and along with the code section.
 </p>

@@ -80,8 +80,8 @@ with col3:
 
 col1, col2, col3 = st.columns(3)
 with col1:
-    st.write('img')
+    st.image('images/photos/Canal_oil_tanker 06-2024-9.jpg')
 with col2:
-    st.write('img2')
+    st.image('images/photos/Navy_boat_May-2024-5.jpg')
 with col3:
-    st.write('img3')
+    st.image('images/photos/Flowers-3.jpg')
