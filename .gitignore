@@ -2,3 +2,5 @@ venv
 .idea
 images
 data_sheets
+/config.py
+/Resume 2024.pdf

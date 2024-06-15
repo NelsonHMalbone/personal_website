@@ -31,12 +31,11 @@ with col_2:
     st.info(content2)
     st.write('')
 col1, col2, col3 = st.columns(3)
+
 with col1:
     st.write('')
 with col2:
-    data = "on the dl"
-    st.download_button('Download Resume', data)
-    st.write('')
+    btn = st.link_button('Resume', 'https://drive.google.com/file/d/1GhvX1ZDSRt9N0mpu_k6d9qzuY6P-NVYH/view?usp=sharing')
 with col3:
     st.write('')
 
